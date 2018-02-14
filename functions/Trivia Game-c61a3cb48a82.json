@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "trivia-game-eea78",
+  "private_key_id": "c61a3cb48a82bc2d53280e91e1e9d320aab0f721",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC8z+rO7oKjaise\nQza50FvPTJq5xbb1GaW1379wIrdzerfn41feo9M7laqN2AtnvNtP8luPXgdRWXCg\nbyG6Y9WkQirQBNbfQFz/s5a1cphB0dGtuS74wDqjZ5QgoF6Kg1SlFcZjIe9b0MCI\nrqjk212nTx3h/Ad+q4qVOJzdQP+02Ecx5TGCPd6F4wl6s7Zd73CiMp0mv7K8Sa6E\nV5adwbCu6gn7SJTzBPncX8c+hKjQI77gNo8IdAwWvkbXeJwiMVoTszvQoEqXTN8v\nzAgSRPlT+Ce5XrMuKCihFgublAxJhKep/HMla5u2WJNqyX3IGJf/wrrLNTz4M/Tj\nsf/XqH//AgMBAAECggEAFFe+b78o2hx1OtR5D/oP+jzBquRPewbhYMATqyxCYbHG\nILjQ3c7+0juk3ZV6XRnu8yUkkkTKOwyM4uw2UROyj/kFDdaHpBQWMQKTaUdIekb1\n9WavVeO4LaTaQ82jgf72XrcC4ellFZpfNBrFXar44y7WBGQYFqC61Kr906TOKBi5\nlFm4YvVzIgv7o5wiF+0muss0QrsapGrduEej20BCW6a0rtO9eTzBaCldWOlIO7q0\nRRZF80biuUKaBvXvG+DMSCWahz44WZyILsiy9jCcoJKEi2fyofu54yF8yWYVoPtu\nlGZH2nYDAurFYnsCnLGMD0ctafow26BC2YWObNjasQKBgQD3vR9TrLEiCKjwNl8P\nrAH4rXs5PVPq312WGZOMU+1WaztJ6Qsn1CjN23Ak2Ek2CpuUPCUF9hJwXLqrUvy/\nHmEcuzbFJpJB5boL0IAidm8kEv/0QSTRQFyoAAzms8e0GBASaNctesONPq7OEE0U\nE+FLna0h36twRzFHZ19uidcMKQKBgQDDG8E8QU6XTy2jYPsTGMaK62au/9BNvE9k\n6Sz1aMBRRrnLzHgTpI/d8tdJ2nsSS5thywYBPSHoSvztEmzsbid2695wCPsWS6nk\nQX+t0MikhQ1VcZwY5QtaYns+QI5rTCMiAR+ba5Op7vzk0GkoayfKO3azYYcoraJm\n8Llj3Hkv5wKBgQDV4kTak9y1+m4IPZjiyelFzlj1eRorTD7bKSe23nqowpmEXRvR\nfhzgZZSzarwCWTQqzaZVODaBJb3Pzi0Bv/Otv4Aww/U/yVtPeeo2VrPrnC+4rEli\nE0QrkyeQQiSnOqMdkcA8tqGAH18B7xbsv6EiDHZ+KUI1BHHqKLg+kejEyQKBgQCV\n3OTBRpx6RnwUqTJRSc9+9y+JLb8vZnxJU32QBuTpyPx/WM/Grrk+zv+kn6e2ttJj\n/FDhdLZtueOqqWN2+2lew++4eH18c6PMSq8qsFrdW8GRJtGyoYPl6g0mFOoP6ox1\n2w0PEUN73LDthFOxkxUeFiynvjrV+QDsNuz/kmKXcwKBgQCjnGI1lz7KvrJ2Yhi6\nS3bNZegHFyTf8ypuud3DvJhE+HHlt6lwjSdsn6qTY1ys94FDNZmk7IUenTGjgDLD\nGgSaZjzf+zyATpf3+11uHGnGPs/++4AwnhhqRspshoakdgZOae5eKUlKHw5J0f+3\nuuwt3pY5YP4Y4oWjw7IYX/FFzA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "trivia-game-eea78@appspot.gserviceaccount.com",
+  "client_id": "101823686819511736104",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/trivia-game-eea78%40appspot.gserviceaccount.com"
+}

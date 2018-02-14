@@ -16,11 +16,14 @@ You can also try out a hosted version of this game at [https://triviatemplate.co
 1. Deploy the fulfillment webhook provided in the `functions` folder using [Google Cloud Functions for Firebase](https://firebase.google.com/docs/functions/) and the static resources needed by the project using [Firebase Hosting](https://firebase.google.com/docs/hosting/):
     1. Follow the instructions to [install the Firebase CLI](https://firebase.google.com/docs/hosting/quickstart#install-the-firebase-cli).
     1. Run `firebase init`, and select to configure `Hosting` and `Functions`. Select the project you've previously created in the Actions on Google Console as default project. In the configuration wizard, accept all the default choices.
-    1. Edit the database data with questions (questions.json) and prompts (prompts.json). Generate a private key using Firebase Settings/Service Accounts, and edit `functions/database.js` with the path to the JSON cert file. Now populate the database: `node database.js`
+    1. Edit the database data with questions (questions.json) and prompts (prompts.json). Generate a private key using Firebase Settings/Service Accounts, and edit `functions/database.js` with the:
+      - path to the JSON cert file.
+      - database name databaseURL:, from Firebase - Project Settings - Service Accounts (Node.js option)
+       Now populate the database: `node database.js` (may need to update to the latest firebase-functions SDK by running "npm i --save firebase-functions@latest" inside your functions folder)
     1. Run `firebase deploy` and take note of the endpoint where the fulfillment webhook has been published. It should look like `Function URL (triviaGame): https://us-central1-YOUR_PROJECT.cloudfunctions.net/triviaGame`. The command will also deploy the static assets at `https://us-central1-YOUR_PROJECT.cloudfunctions.net/`.
 1. Go back to the Dialogflow console and select *Fulfillment* from the left navigation menu. Enable *Webhook*, set the value of *URL* to the `Function URL` from the previous step, then click *Save*.
 1. Select *Integrations* from the left navigation menu and open the *Settings* menu for Actions on Google.
-1. Click *Test*.
+1. Click *Test* - note, if testing multiple Google Actions, only *one* can be the test app - find the one that is currently chosen, and disable testing (click on the device icon in the web simulator)
 1. Click *View* to open the Actions on Google simulator.
 1. Type `Talk to my test app` in the simulator, or say `OK Google, talk to my test app` to any Actions on Google enabled device signed into your developer account.
 
