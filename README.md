@@ -23,9 +23,9 @@ You can also try out a hosted version of this game at [https://triviatemplate.co
     1. Run `firebase deploy` and take note of the endpoint where the fulfillment webhook has been published. It should look like `Function URL (triviaGame): https://us-central1-YOUR_PROJECT.cloudfunctions.net/triviaGame`. The command will also deploy the static assets at `https://us-central1-YOUR_PROJECT.cloudfunctions.net/`.
 1. Go back to the Dialogflow console and select *Fulfillment* from the left navigation menu. Enable *Webhook*, set the value of *URL* to the `Function URL` from the previous step, then click *Save*.
 1. Select *Integrations* from the left navigation menu and open the *Settings* menu for Actions on Google.
-1. Click *Test* - note, if testing multiple Google Actions, only *one* can be the test app - find the one that is currently chosen, and disable testing (click on the device icon in the web simulator)
+1. Click *Test*
 1. Click *View* to open the Actions on Google simulator.
-1. Type `Talk to my test app` in the simulator, or say `OK Google, talk to my test app` to any Actions on Google enabled device signed into your developer account.
+1. Type `Talk to my test app` in the simulator, or say `OK Google, talk to my test app` to any Actions on Google enabled device signed into your developer account.  *Note*, if testing multiple Google Actions, only *one* can be the test app - find the one that is currently chosen, and disable testing (click on the device icon in the web simulator)
 
 For more detailed information on deployment, see the [documentation](https://developers.google.com/actions/dialogflow/deploy-fulfillment).
 
